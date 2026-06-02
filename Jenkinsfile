@@ -3,7 +3,7 @@ agent any
 
 environment {
 
-    IMAGE_NAME = "Dwarkadhish2005/smart-task-manager"
+    IMAGE_NAME = "dwarkadhish2005/smart-task-manager"
 
 }
 
