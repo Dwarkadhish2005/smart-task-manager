@@ -3,7 +3,7 @@ agent any
 
 environment {
 
-    IMAGE_NAME = "YOUR_DOCKERHUB_USERNAME/smart-task-manager"
+    IMAGE_NAME = "Dwarkadhish2005/smart-task-manager"
 
 }
 
@@ -19,7 +19,7 @@ stages {
 
         steps {
 
-            git 'YOUR_GITHUB_REPO_URL'
+            checkout scm 
 
         }
     }
