@@ -1,18 +1,25 @@
 pipeline {
 agent any
 environment {
-    IMAGE_NAME = "dwarkadhish2005/smart-task-manager"
+
+    IMAGE_NAME = "YOUR_DOCKERHUB_USERNAME/smart-task-manager"
+
 }
 tools {
     maven 'Maven'
     jdk 'JDK26'
 }
 stages {
+
     stage('Checkout Code') {
+
         steps {
-            git 'https://github.com/Dwarkadhish2005/smart-task-manager.git'
+
+            git 'YOUR_GITHUB_REPO_URL'
+
         }
     }
+
     stage('Build') {
         steps {
             sh 'mvn clean compile'
