@@ -15,7 +15,7 @@ stages {
 
         steps {
 
-            git 'YOUR_GITHUB_REPO_URL'
+            git 'https://github.com/Dwarkadhish2005/smart-task-manager.git'
 
         }
     }
