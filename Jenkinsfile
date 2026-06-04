@@ -2,7 +2,7 @@ pipeline {
 agent any
 environment {
 
-    IMAGE_NAME = "YOUR_DOCKERHUB_USERNAME/smart-task-manager"
+    IMAGE_NAME = "dwarkadhish2005/smart-task-manager"
 
 }
 tools {
